@@ -2,7 +2,7 @@
 public class HelloTest {
 
 	String name;
-
+	
 	
 	public HelloTest(){}
 	
@@ -10,7 +10,10 @@ public class HelloTest {
 	public HelloTest(String name) {
 		this.name = name;
 	}
-	
-	
-		
+
+
+	@Override
+	public String toString() {
+		return "HelloTest [name=" + name + "]";
+	}
 }
